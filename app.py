@@ -1,7 +1,7 @@
 import sys
 import streamlit as st
 
-st.write("Python version:", sys.version)
+st.write(f"Python version:", {sys.version})
 import numpy as np
 import librosa
 import tensorflow as tf
